@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_LH1hQJBNEe6tCO0blUeuDA" name="MSSQL_DWH" id="_D36W4JBNEe6tCO0blUeuDA" label="MSSQL_DWH" dataPackage="_LKM4wJBNEe6tCO0blUeuDA" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:64373/DWH_Project;" dbVersionString="JTDS" Port="64373" Username="sa" Password="enc:system.encryption.key.v1:sZ4bd2uF5RQmc0H1D5gL3vAepzHR0Ez7pjx58mpJKh1zw1A+rdP4V47w" ServerName="localhost" DatasourceName="" FileFieldName="" SID="DWH_Project" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_LH1hQZBNEe6tCO0blUeuDA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_LH_SQJBNEe6tCO0blUeuDA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_LH_5UJBNEe6tCO0blUeuDA" tag="Status" value=""/>
+    <taggedValue xmi:id="_LH_5UZBNEe6tCO0blUeuDA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_LH_5UpBNEe6tCO0blUeuDA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_LH_5U5BNEe6tCO0blUeuDA" tag="Description" value=""/>
+    <taggedValue xmi:id="_LH_5VJBNEe6tCO0blUeuDA" tag="Author" value=""/>
+    <taggedValue xmi:id="_LH_5VZBNEe6tCO0blUeuDA" tag="otherParameter"/>
+    <taggedValue xmi:id="_LI9ioJBNEe6tCO0blUeuDA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_LI9ioZBNEe6tCO0blUeuDA" tag="DB ProductVersion" value="16.00.1105"/>
+    <taggedValue xmi:id="_LI9iopBNEe6tCO0blUeuDA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_LH1hQpBNEe6tCO0blUeuDA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_LKM4wJBNEe6tCO0blUeuDA" name="DWH_Project" dataManager="_LH1hQJBNEe6tCO0blUeuDA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_LKM4wZBNEe6tCO0blUeuDA" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
